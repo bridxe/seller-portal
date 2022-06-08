@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="description" content="Web Design">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Manik MT">
+        <meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="content-script-type" content="text/javascript">
+        <meta http-equiv="x-dns-prefetch-control" content="on">
+        <!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+        
+        <!--  <link rel="apple-touch-icon" sizes="180x180" href="img/fav_icon.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="img/fav_icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/fav_icon.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/fav_icon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/fav_icon.png"> -->
+        <!-- Font awsome style -->
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="HelveticaNeue/stylesheet.css">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- Custom css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Responsive midea css -->
+        <link rel="stylesheet" href="css/media.css">
+        <title>BridXe</title>
+    </head>
+    <body>
+        <!-- header start -->
+        <header class="fixed-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="#" class="logo"><img src="img/logo.svg" alt="img" class="img-fluid"></a>
+                    </div>
+                    <div class="col-6 text-end align-self-center">
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Kadin Korsgaard
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#"> <img src="img/logout.svg" alt=""> log out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- wrapper start -->
+        <!-- wrapper start -->
+        
+        <div class="wrapper">
+            <!-- wrapper-left-body start -->
+            <div class="wrapper-left-body">
+                <div class="wrapper-left-sidebar text-uppercase">
+                    
+                    <ul>
+                        <li>
+                            <!-- for desktop start -->
+                            <a href="" class=" d-lg-block d-none">
+                                <img src="img/arrow-right.svg" alt="img" class="img-fluid arrow-right d-lg-inline-block d-none">
+                                <img src="img/arrow-right-mobile.svg" alt="img" class="img-fluid arrow-right d-lg-none d-inline-block">
+                                <span class="inner-item">
+                                    <img src="img/home.svg" alt="img" class="img-fluid">
+                                    <span class="text">home</span>
+                                </span>
+                            </a>
+                            <!-- for mobile start -->
+                            <a href="account-overview.html" class="d-lg-none d-block">
+                                <img src="img/arrow-right.svg" alt="img" class="img-fluid arrow-right d-lg-inline-block d-none">
+                                <img src="img/arrow-right-mobile.svg" alt="img" class="img-fluid arrow-right d-lg-none d-inline-block">
+                                <span class="inner-item">
+                                    <img src="img/home.svg" alt="img" class="img-fluid">
+                                    <span class="text">home</span>
+                                </span>
+                            </a>
+                            
+                            
+                        </li>
+                        <li>
+                            <a href="my-orders.html" class="active">
+                                <img src="img/arrow-right.svg" alt="img" class="img-fluid arrow-right d-lg-inline-block d-none">
+                                <img src="img/arrow-right-mobile.svg" alt="img" class="img-fluid arrow-right d-lg-none d-inline-block">
+                                <span class="inner-item">
+                                    <img src="img/Insights.svg" alt="img" class="img-fluid">
+                                    <span class="text">Insights</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="change-password.html">
+                                <img src="img/arrow-right.svg" alt="img" class="img-fluid arrow-right d-lg-inline-block d-none">
+                                <img src="img/arrow-right-mobile.svg" alt="img" class="img-fluid arrow-right d-lg-none d-inline-block">
+                                <span class="inner-item">
+                                    <img src="img/my-products.svg" alt="img" class="img-fluid">
+                                    <span class="text">my products</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="payment-methods.html">
+                                <img src="img/arrow-right.svg" alt="img" class="img-fluid arrow-right d-lg-inline-block d-none">
+                                <img src="img/arrow-right-mobile.svg" alt="img" class="img-fluid arrow-right d-lg-none d-inline-block">
+                                <span class="inner-item">
+                                    <img src="img/purchases.svg" alt="img" class="img-fluid">
+                                    <span class="text">Purchases</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="connect-wallet.html">
+                                <img src="img/arrow-right.svg" alt="img" class="img-fluid arrow-right d-lg-inline-block d-none">
+                                <img src="img/arrow-right-mobile.svg" alt="img" class="img-fluid arrow-right d-lg-none d-inline-block">
+                                <span class="inner-item">
+                                    <img src="img/settings.svg" alt="img" class="img-fluid">
+                                    <span class="text">settings</span>
+                                </span>
+                            </a>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- wrapper-left-body end -->
+            <!-- wrapper-right-main-body start  -->
+            <div class="wrapper-right-main-body d-lg-block d-none">
+                
+                <div class="total-sales">
+                    <div class="common-h2">
+                        <h2 class="text-uppercase">total sales</h2>
+                    </div>
+                    <img src="img/Frame160.png" alt="img" class="img-fluid w-100">
+                </div>
+                <!-- insights for a specific product start -->
+                <div class="insights-for">
+                    <div class="common-h2">
+                        <h2>insights for a specific product</h2>
+                        <div class="item-top">
+                            <div class="row">
+                            <!-- single item start -->
+                            <div class="col-lg-6">
+                                <div class="Search-bar">
+                                    <input type="search" placeholder="Search " class="form-control">
+                                    <button type="submit"><img src="img/search-bar.png" alt="img" class="img-fluid"></button>
+                                </div>
+                            </div>
+                            <!-- single item end -->
+                            <!-- single item start -->
+                            <div class="col-lg-6">
+                                <div class="per-page">
+                                    <span>Items per page:</span>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>10</option>
+                                        <option value="1">50</option>
+                                        <option value="2">100</option>
+                                        <option value="3">1000</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- single item end -->
+                            
+                        </div>
+                        </div>
+                        <div class="product-box-item">
+                            <div class="row">
+                                <!-- single item start -->
+                                <div class="col-lg-6">
+                                    <div class="item">
+                                       <div class="row g-0">
+                                           <div class="col-4">
+                                               <div class="item-img">
+                                                   <a href=""><img src="img/Rectangle46.png" alt="img" class="img-fluid"></a>
+                                               </div>
+                                           </div>
+                                           <div class="col-8">
+                                               <div class="item-1">
+                                                <a href="">
+                                                   <h4>BridXe T-Shirt</h4>
+                                                   <p class="mb-0">$16.00 USD</p>
+                                                   </a>
+                                               </div>
+                                               <div class="item2">
+                                                   <div class="row g-0">
+                                                       <div class="col-7">
+                                                           <div class="item02">
+                                                               <h4>sales statistics:</h4>
+                                                               <img src="img/Group44.png" alt="img" class="img-fluid">
+                                                           </div>
+                                                       </div>
+                                                       <div class="col-5">
+                                                           <div class="item02 item03">
+                                                               <h4>last sold:</h4>
+                                                               <p class="mb-0">yesterday</p>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           
+                                       </div> 
+                                    </div>
+                                </div>
+                                <!-- single item end -->
+                                <!-- single item start -->
+                                <div class="col-lg-6 mt-lg-0 mt-4">
+                                    <div class="item">
+                                       <div class="row g-0">
+                                           <div class="col-4">
+                                               <div class="item-img">
+                                                   <a href=""><img src="img/Rectangle46.png" alt="img" class="img-fluid"></a>
+                                               </div>
+                                           </div>
+                                           <div class="col-8">
+                                               <div class="item-1">
+                                                   <a href="">
+                                                   <h4>BridXe T-Shirt</h4>
+                                                   <p class="mb-0">$16.00 USD</p>
+                                                   </a>
+                                               </div>
+                                               <div class="item2">
+                                                   <div class="row g-0">
+                                                       <div class="col-7">
+                                                           <div class="item02">
+                                                               <h4>sales statistics:</h4>
+                                                               <img src="img/Group44.png" alt="img" class="img-fluid">
+                                                           </div>
+                                                       </div>
+                                                       <div class="col-5">
+                                                           <div class="item02 item03">
+                                                               <h4>last sold:</h4>
+                                                               <p class="mb-0">yesterday</p>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           
+                                       </div> 
+                                    </div>
+                                </div>
+                                <!-- single item end -->
+                                <!-- single item start -->
+                                <div class="col-lg-6 mt-4">
+                                    <div class="item">
+                                       <div class="row g-0">
+                                           <div class="col-4">
+                                               <div class="item-img">
+                                                   <a href=""><img src="img/Rectangle46.png" alt="img" class="img-fluid"></a>
+                                               </div>
+                                           </div>
+                                           <div class="col-8">
+                                               <div class="item-1">
+                                                   <a href="">
+                                                   <h4>BridXe T-Shirt</h4>
+                                                   <p class="mb-0">$16.00 USD</p>
+                                                   </a>
+                                               </div>
+                                               <div class="item2">
+                                                   <div class="row g-0">
+                                                       <div class="col-7">
+                                                           <div class="item02">
+                                                               <h4>sales statistics:</h4>
+                                                               <img src="img/Group44.png" alt="img" class="img-fluid">
+                                                           </div>
+                                                       </div>
+                                                       <div class="col-5">
+                                                           <div class="item02 item03">
+                                                               <h4>last sold:</h4>
+                                                               <p class="mb-0">yesterday</p>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           
+                                       </div> 
+                                    </div>
+                                </div>
+                                <!-- single item end -->
+                                <!-- single item start -->
+                                <div class="col-lg-6 mt-4">
+                                    <div class="item">
+                                       <div class="row g-0">
+                                           <div class="col-4">
+                                               <div class="item-img">
+                                                   <a href=""><img src="img/Rectangle46.png" alt="img" class="img-fluid"></a>
+                                               </div>
+                                           </div>
+                                           <div class="col-8">
+                                               <div class="item-1">
+                                                  <a href="">
+                                                   <h4>BridXe T-Shirt</h4>
+                                                   <p class="mb-0">$16.00 USD</p>
+                                                   </a>
+                                               </div>
+                                               <div class="item2">
+                                                   <div class="row g-0">
+                                                       <div class="col-7">
+                                                           <div class="item02">
+                                                               <h4>sales statistics:</h4>
+                                                               <img src="img/Group44.png" alt="img" class="img-fluid">
+                                                           </div>
+                                                       </div>
+                                                       <div class="col-5">
+                                                           <div class="item02 item03">
+                                                               <h4>last sold:</h4>
+                                                               <p class="mb-0">yesterday</p>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           
+                                       </div> 
+                                    </div>
+                                </div>
+                                <!-- single item end -->
+                                <!-- single item start -->
+                                <div class="col-lg-6 mt-4">
+                                    <div class="item">
+                                       <div class="row g-0">
+                                           <div class="col-4">
+                                               <div class="item-img">
+                                                   <a href=""><img src="img/Rectangle46.png" alt="img" class="img-fluid"></a>
+                                               </div>
+                                           </div>
+                                           <div class="col-8">
+                                               <div class="item-1">
+                                                   <a href="">
+                                                   <h4>BridXe T-Shirt</h4>
+                                                   <p class="mb-0">$16.00 USD</p>
+                                                   </a>
+                                               </div>
+                                               <div class="item2">
+                                                   <div class="row g-0">
+                                                       <div class="col-7">
+                                                           <div class="item02">
+                                                               <h4>sales statistics:</h4>
+                                                               <img src="img/Group44.png" alt="img" class="img-fluid">
+                                                           </div>
+                                                       </div>
+                                                       <div class="col-5">
+                                                           <div class="item02 item03">
+                                                               <h4>last sold:</h4>
+                                                               <p class="mb-0">yesterday</p>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           
+                                       </div> 
+                                    </div>
+                                </div>
+                                <!-- single item end -->
+                                <!-- single item start -->
+                                <div class="col-lg-6 mt-4">
+                                    <div class="item">
+                                       <div class="row g-0">
+                                           <div class="col-4">
+                                               <div class="item-img">
+                                                   <a href=""><img src="img/Rectangle46.png" alt="img" class="img-fluid"></a>
+                                               </div>
+                                           </div>
+                                           <div class="col-8">
+                                               <div class="item-1">
+                                                   <a href="">
+                                                   <h4>BridXe T-Shirt</h4>
+                                                   <p class="mb-0">$16.00 USD</p>
+                                                   </a>
+                                               </div>
+                                               <div class="item2">
+                                                   <div class="row g-0">
+                                                       <div class="col-7">
+                                                           <div class="item02">
+                                                               <h4>sales statistics:</h4>
+                                                               <img src="img/Group44.png" alt="img" class="img-fluid">
+                                                           </div>
+                                                       </div>
+                                                       <div class="col-5">
+                                                           <div class="item02 item03">
+                                                               <h4>last sold:</h4>
+                                                               <p class="mb-0">yesterday</p>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           
+                                       </div> 
+                                    </div>
+                                </div>
+                                <!-- single item end -->
+                                <!-- single item start -->
+                                <div class="col-lg-6 mt-4">
+                                    <div class="item">
+                                       <div class="row g-0">
+                                           <div class="col-4">
+                                               <div class="item-img">
+                                                   <a href=""><img src="img/Rectangle46.png" alt="img" class="img-fluid"></a>
+                                               </div>
+                                           </div>
+                                           <div class="col-8">
+                                               <div class="item-1">
+                                                   <a href="">
+                                                   <h4>BridXe T-Shirt</h4>
+                                                   <p class="mb-0">$16.00 USD</p>
+                                                   </a>
+                                               </div>
+                                               <div class="item2">
+                                                   <div class="row g-0">
+                                                       <div class="col-7">
+                                                           <div class="item02">
+                                                               <h4>sales statistics:</h4>
+                                                               <img src="img/Group44.png" alt="img" class="img-fluid">
+                                                           </div>
+                                                       </div>
+                                                       <div class="col-5">
+                                                           <div class="item02 item03">
+                                                               <h4>last sold:</h4>
+                                                               <p class="mb-0">yesterday</p>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           
+                                       </div> 
+                                    </div>
+                                </div>
+                                <!-- single item end -->
+                                <!-- single item start -->
+                                <div class="col-lg-6 mt-4">
+                                    <div class="item">
+                                       <div class="row g-0">
+                                           <div class="col-4">
+                                               <div class="item-img">
+                                                   <a href=""><img src="img/Rectangle46.png" alt="img" class="img-fluid"></a>
+                                               </div>
+                                           </div>
+                                           <div class="col-8">
+                                               <div class="item-1">
+                                                   <a href="">
+                                                   <h4>BridXe T-Shirt</h4>
+                                                   <p class="mb-0">$16.00 USD</p>
+                                                   </a>
+                                               </div>
+                                               <div class="item2">
+                                                   <div class="row g-0">
+                                                       <div class="col-7">
+                                                           <div class="item02">
+                                                               <h4>sales statistics:</h4>
+                                                               <img src="img/Group44.png" alt="img" class="img-fluid">
+                                                           </div>
+                                                       </div>
+                                                       <div class="col-5">
+                                                           <div class="item02 item03">
+                                                               <h4>last sold:</h4>
+                                                               <p class="mb-0">yesterday</p>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           
+                                       </div> 
+                                    </div>
+                                </div>
+                                <!-- single item end -->
+                                <!-- single item start -->
+                                <div class="col-lg-6 mt-4">
+                                    <div class="item">
+                                       <div class="row g-0">
+                                           <div class="col-4">
+                                               <div class="item-img">
+                                                   <a href=""><img src="img/Rectangle46.png" alt="img" class="img-fluid"></a>
+                                               </div>
+                                           </div>
+                                           <div class="col-8">
+                                               <div class="item-1">
+                                                   <a href="">
+                                                   <h4>BridXe T-Shirt</h4>
+                                                   <p class="mb-0">$16.00 USD</p>
+                                                   </a>
+                                               </div>
+                                               <div class="item2">
+                                                   <div class="row g-0">
+                                                       <div class="col-7">
+                                                           <div class="item02">
+                                                               <h4>sales statistics:</h4>
+                                                               <img src="img/Group44.png" alt="img" class="img-fluid">
+                                                           </div>
+                                                       </div>
+                                                       <div class="col-5">
+                                                           <div class="item02 item03">
+                                                               <h4>last sold:</h4>
+                                                               <p class="mb-0">yesterday</p>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           
+                                       </div> 
+                                    </div>
+                                </div>
+                                <!-- single item end -->
+                                <!-- single item start -->
+                                <div class="col-lg-6 mt-4">
+                                    <div class="item">
+                                       <div class="row g-0">
+                                           <div class="col-4">
+                                               <div class="item-img">
+                                                   <a href=""><img src="img/Rectangle46.png" alt="img" class="img-fluid"></a>
+                                               </div>
+                                           </div>
+                                           <div class="col-8">
+                                               <div class="item-1">
+                                                  <a href="">
+                                                   <h4>BridXe T-Shirt</h4>
+                                                   <p class="mb-0">$16.00 USD</p>
+                                                   </a>
+                                               </div>
+                                               <div class="item2">
+                                                   <div class="row g-0">
+                                                       <div class="col-7">
+                                                           <div class="item02">
+                                                               <h4>sales statistics:</h4>
+                                                               <img src="img/Group44.png" alt="img" class="img-fluid">
+                                                           </div>
+                                                       </div>
+                                                       <div class="col-5">
+                                                           <div class="item02 item03">
+                                                               <h4>last sold:</h4>
+                                                               <p class="mb-0">yesterday</p>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           
+                                       </div> 
+                                    </div>
+                                </div>
+                                <!-- single item end -->
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="number-of-show"><p class="text-end">10 of 80</p></div>
+                    <div class="number-text text-center">
+                        <ul>
+                            <li><a href="" class="active">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="">3</a></li>
+                            <li>....</li>
+                            <li><a href="">12</a></li>
+                        </ul>
+                        <div class="img-right-more text-end">
+                            <a href=""><img src="img/arrow-right-w.png" alt="img" class="img-fluid"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- insights for a specific product end-->
+                
+                
+                
+            </div>
+            <!-- wrapper-right-main-body end -->
+            
+        </div>
+        <!-- wrapper end -->
+        <!--
+        *****************************************************************************
+        *****************************************************************************
+        *****************************************************************************
+        *****************************************************************************
+        *****************************************************************************
+        *****************************************************************************
+        ************************* FRONT-END WEB DEVELOPMENT *************************
+        ******************************* --Manik MT-- ********************************
+        ******************************** Contact Us: ********************************
+        ************************* Mail: manikmt01@gmail.com *************************
+        *********************** Visit Website: www.manikmt.com **********************
+        *****************************************************************************
+        *****************************************************************************
+        *****************************************************************************
+        *****************************************************************************
+        *****************************************************************************
+        *****************************************************************************
+        -->
+        <!-- JS, Popper.js, and jQuery -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+        
+    </body>
+</html>
